@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="02c8-a689-4523-d264" name="Nameless Rush" battleScribeVersion="2.03" gameSystemId="914e-8a95-25ac-174f" gameSystemName="Deadzone 3rd Edition" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="149.0"/>
+    <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="14.0"/>
+  </costs>
+  <costLimits>
+    <costLimit name=" Pts" typeId="69b0-482f-35d5-9309" value="150.0"/>
+  </costLimits>
+  <forces>
+    <force id="8a44-4925-75af-00f7" name="Strike Team" entryId="373b-5688-1564-08f6" publicationId="2fce-908e-d96c-e6cc" page="4" catalogueId="d30f-ae47-107e-f058" catalogueRevision="2" catalogueName="Nameless">
+      <selections>
+        <selection id="7468-4361-1d94-1ea0" name="Psychotroid" entryId="cfcc-b54f-c175-3f4d" number="1" type="model">
+          <rules>
+            <rule id="0450-14b2-5103-737d::9dfa-4b05-f18a-4b11" name="Beast" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword cannot pick up, carry/use Items or Equipment, or interact with control panels. All of its weapons and equipment are either natural or have been grafted on permanently by skilled bio-technicians. A model with this keyword can still claim objective cubes.</description>
+            </rule>
+            <rule id="aa0c-d4ba-9e0d-b1b7::5640-56e6-bb10-453d" name="Recon n+" publicationId="c22e-0818-c8c6-fe86" page="46-47" hidden="false">
+              <description>Recon is used to determine which player deploys their Strike Team to the battlefield first. The winner of the Recon test also benefits from Recon Effects.</description>
+            </rule>
+            <rule id="c30c-2f64-b20c-4450::d3bb-c0a0-a253-cd9d" name="Resilient (n)" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false">
+              <description>A model with this keyword may re-roll (n) dice when making Survive tests.
+Resilient is cumulative. If more than one Resilient modifier applies to the test then add together the (n) value from each source.</description>
+            </rule>
+            <rule id="283a-77ff-534c-609d::2249-d210-753f-645c" name="Tactician (n)" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+              <description>A model with this keyword is a great leader and intuitively understands how to get the most out of a combat situation. Its player adds (n) Command Dice to their Command Dice roll while the Tactician model remains in play (not left the game, or killed).
+Having more than one Tactician in a Strike Team provides no additional benefit beyond having a replacement if the first one is killed. Simply select the model you wish to use (probably the one that gives the most extra dice!).</description>
+            </rule>
+            <rule id="59f5-7c73-874b-d7c7::a3aa-4f8e-9ad9-108f" name="Tenacious" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+              <description>An enemy model attempting to leave a cube that includes a model with this keyword, suffers -1 die to their Survive test.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="cf45-1573-d5e4-8bb8::8b17-9fd4-01bf-5409" name="Psychotroid" publicationId="2fce-908e-d96c-e6cc" page="82" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">3</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">2</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">4	0mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Recon 4+, Resilient (2), Tactician (2), Tenacious
+Special Order: Aura of Dread</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="8750-0297-802f-9e19" name="Brain Freeze" entryId="550e-1573-6e6e-a791::87ae-5017-5886-1963" number="1" type="upgrade">
+              <rules>
+                <rule id="550e-1573-6e6e-a791::fb50-4c27-6116-2e2d::8631-8a95-36cb-5e6e" name="Psychic" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+                  <description>A model with this keyword possesses mental abilities that allow it to influence objects and creatures in its environment. Whether these abilities are natural, such as those possessed by the Chovar, or the product or forbidden scientific research, they are all represented in-game in the same way.
+Weapons listed with the Psychic weapon keyword. These abilities are, in effect, another weapon that the model can use: they will have a Range characteristice, are used in Ranged tests just like other weapons, and receive the same modifiers as standard Ranged tests.
+The only exception is that a Psychic weapon does not need Line of Sight to its target in order to be used.</description>
+                </rule>
+                <rule id="550e-1573-6e6e-a791::0f2b-7441-adca-d517::c3b4-0c3c-d63b-b757" name="Stun" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+                  <description>A weapon with this keyword does not cause any damage and lost HP. AP and Armour are not considered.
+Instead, if the attacker rolls more successes, the target model is immediately marked as Activated. If an active model is stunned, it mya not perform any more actions - its Turn is immediately over. If the model was attempting to Break Away from an enemy-occupied cube, it fails and the model is not moved.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="550e-1573-6e6e-a791::87c1-20f9-c2b3-ebb0::48c6-59f7-fbe6-62fc" name="Brain Freeze" publicationId="2fce-908e-d96c-e6cc" page="82" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic - Stun</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="1da8-fd1e-87ec-9d6d" name="Mind Control" entryId="5b09-bed9-1a34-6590::7e52-9d28-8411-0e23" number="1" type="upgrade">
+              <rules>
+                <rule id="5b09-bed9-1a34-6590::2cfc-021e-43eb-ee23::8631-8a95-36cb-5e6e" name="Psychic" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+                  <description>A model with this keyword possesses mental abilities that allow it to influence objects and creatures in its environment. Whether these abilities are natural, such as those possessed by the Chovar, or the product or forbidden scientific research, they are all represented in-game in the same way.
+Weapons listed with the Psychic weapon keyword. These abilities are, in effect, another weapon that the model can use: they will have a Range characteristice, are used in Ranged tests just like other weapons, and receive the same modifiers as standard Ranged tests.
+The only exception is that a Psychic weapon does not need Line of Sight to its target in order to be used.</description>
+                </rule>
+                <rule id="5b09-bed9-1a34-6590::b93c-4661-1113-be76::eb58-58da-1326-812a" name="Suppression" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+                  <description>A weapon with this keyword will cause all models (from either side) in the target cube to be Pinned, regardless of whether they suffered any lost HP from the shot, or how many successes were rolled.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="5b09-bed9-1a34-6590::84bd-812b-bad6-364b::c30a-d229-5ade-1cba" name="Mind Control" publicationId="2fce-908e-d96c-e6cc" page="82" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic - Suppression</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="396d-86cd-17a7-dcea" name="Hyperkinesis" entryId="afdf-9dd0-26c1-2ca7::3fcd-d0c6-4086-679c" number="1" type="upgrade">
+              <rules>
+                <rule id="afdf-9dd0-26c1-2ca7::50bd-8432-ba0a-c7df::8631-8a95-36cb-5e6e" name="Psychic" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+                  <description>A model with this keyword possesses mental abilities that allow it to influence objects and creatures in its environment. Whether these abilities are natural, such as those possessed by the Chovar, or the product or forbidden scientific research, they are all represented in-game in the same way.
+Weapons listed with the Psychic weapon keyword. These abilities are, in effect, another weapon that the model can use: they will have a Range characteristice, are used in Ranged tests just like other weapons, and receive the same modifiers as standard Ranged tests.
+The only exception is that a Psychic weapon does not need Line of Sight to its target in order to be used.</description>
+                </rule>
+                <rule id="afdf-9dd0-26c1-2ca7::dc8e-316b-6452-3a12::b49a-01ff-272b-16e4" name="Invigorate" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+                  <description>Weapons with this keyword deliver a jolt of energy to their target, whether through a cocktail of combat drugs or through Psychic unleashing of a soldier&apos;s hidden potential. Weapons with Invigorate may target a single friendly model in the same cube as the active model. The firing model makes a 3 dice Ranged test (2) with no modifiers or re-rolls allowed of any kind. If successful, the target model removes an activation token. A model may only benefit from the Invigorate keyword once per Round.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="afdf-9dd0-26c1-2ca7::48e3-1056-08d5-9062::5903-e8e6-42db-df63" name="Hyperkinesis" publicationId="2fce-908e-d96c-e6cc" page="82" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Psychic - Invigorate</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="36.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="4.0"/>
+          </costs>
+          <categories>
+            <category id="bcd6-dd3d-2d18-5ca8" name="Leader" entryId="93f0-5c07-b9f5-ed97" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2776-b9c9-749d-5b68" name="Assassin" entryId="7867-ba37-fbff-1e68" number="1" type="model">
+          <rules>
+            <rule id="6fed-0a78-04ef-4468::9dfa-4b05-f18a-4b11" name="Beast" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword cannot pick up, carry/use Items or Equipment, or interact with control panels. All of its weapons and equipment are either natural or have been grafted on permanently by skilled bio-technicians. A model with this keyword can still claim objective cubes.</description>
+            </rule>
+            <rule id="dcfa-b4a1-91d5-5ff6::6932-6558-0a3f-0f92" name="Jump Pack" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+              <description>Short distance aeronautical gravitation devices can allow rapid movement around the battlefield.
+A model that has the Jump Pack keyword takes no damage and is not Pinned by falling.
+In addition, a model with a Jump Pack can:
+- Move up or down levels without needing a wall to climb.
+- Jump over solid full cube height walls on the same level counting as a single cube of movement.
+- Jump over gaps in the floow of the same level (up to one cube wide), provided it has enough cubes of movement to do so.</description>
+            </rule>
+            <rule id="fa55-66ce-2f51-f333::4d6e-0ce3-e89e-abb2" name="Stealthy" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+              <description>If a model with this keyword is the target of a Shoot action, the attacking model cannot gain the Clear Shot modifier.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="871a-cb1d-657b-5277::f18a-a1ec-d0e6-239a" name="Assassin" publicationId="2fce-908e-d96c-e6cc" page="84" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Jump Pack, Stealthy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d30a-5fa9-33b2-2484" name="Claws" entryId="0989-cce1-f063-cf2e::b95e-a288-2109-70ef" number="1" type="upgrade">
+              <profiles>
+                <profile id="0989-cce1-f063-cf2e::cb30-6d08-b2a6-681f::e5fb-9050-2559-cad7" name="Claws" publicationId="2fce-908e-d96c-e6cc" page="84" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="13.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+          </costs>
+          <categories>
+            <category id="bda7-c2d1-74c6-cc90" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7a9c-ff2b-1f99-6fbd" name="Assassin" entryId="7867-ba37-fbff-1e68" number="1" type="model">
+          <rules>
+            <rule id="6fed-0a78-04ef-4468::9dfa-4b05-f18a-4b11" name="Beast" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword cannot pick up, carry/use Items or Equipment, or interact with control panels. All of its weapons and equipment are either natural or have been grafted on permanently by skilled bio-technicians. A model with this keyword can still claim objective cubes.</description>
+            </rule>
+            <rule id="dcfa-b4a1-91d5-5ff6::6932-6558-0a3f-0f92" name="Jump Pack" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+              <description>Short distance aeronautical gravitation devices can allow rapid movement around the battlefield.
+A model that has the Jump Pack keyword takes no damage and is not Pinned by falling.
+In addition, a model with a Jump Pack can:
+- Move up or down levels without needing a wall to climb.
+- Jump over solid full cube height walls on the same level counting as a single cube of movement.
+- Jump over gaps in the floow of the same level (up to one cube wide), provided it has enough cubes of movement to do so.</description>
+            </rule>
+            <rule id="fa55-66ce-2f51-f333::4d6e-0ce3-e89e-abb2" name="Stealthy" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+              <description>If a model with this keyword is the target of a Shoot action, the attacking model cannot gain the Clear Shot modifier.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="871a-cb1d-657b-5277::f18a-a1ec-d0e6-239a" name="Assassin" publicationId="2fce-908e-d96c-e6cc" page="84" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">2-3</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Jump Pack, Stealthy</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="c569-4a75-77da-cf3c" name="Claws" entryId="0989-cce1-f063-cf2e::b95e-a288-2109-70ef" number="1" type="upgrade">
+              <profiles>
+                <profile id="0989-cce1-f063-cf2e::cb30-6d08-b2a6-681f::e5fb-9050-2559-cad7" name="Claws" publicationId="2fce-908e-d96c-e6cc" page="84" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="13.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+          </costs>
+          <categories>
+            <category id="e645-2aaf-089f-6a82" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="f7c9-1a72-2988-30d0" name="Scuttler" entryId="c565-26ca-40f1-f6a0" number="1" type="model">
+          <rules>
+            <rule id="490b-991d-a557-328e::9dfa-4b05-f18a-4b11" name="Beast" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword cannot pick up, carry/use Items or Equipment, or interact with control panels. All of its weapons and equipment are either natural or have been grafted on permanently by skilled bio-technicians. A model with this keyword can still claim objective cubes.</description>
+            </rule>
+            <rule id="e4c8-528b-beb0-b801::904a-6711-43cf-1f83" name="Agile" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>When a model with this keyword takes an Advance or Sprint action it may move one additional level up or down in the same stack following normal movement rules.</description>
+            </rule>
+            <rule id="378b-d288-bf10-f0a3::b1bd-a2c4-cd75-d623" name="Evade" publicationId="c22e-0818-c8c6-fe86" page="33" hidden="false">
+              <description>When an unpinned model with the Evade keyword is the subject of a Shoot action but is not killed or Pinned, it may make an immediate 1 cube move in any direction. This may trigger a close combat fight as normal.</description>
+            </rule>
+            <rule id="5835-ccb1-f2cc-a556::9b72-c451-cddf-4b0f" name="Horde" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
+              <description>During a close combat fight, models with the Horde keyword will gain the friendly model bonus as normal, plus an additional +1 die modifier for each friendly model in the same cube (not counting itself) that also has the Horde keyword.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="3286-03c2-a396-4039::512a-4007-3ad1-9af8" name="Scuttler" publicationId="2fce-908e-d96c-e6cc" page="83" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">6+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Agile, Beast, Evade, Horde</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d196-75b9-1e8a-e386" name="Pincers" entryId="85f3-fbcc-6e6a-ac4e::722d-c9a5-b76a-8902" number="1" type="upgrade">
+              <profiles>
+                <profile id="85f3-fbcc-6e6a-ac4e::33db-3fcc-7238-7364::bf6d-5362-eca4-9a36" name="Pincers" publicationId="2fce-908e-d96c-e6cc" page="83" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="7.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+          </costs>
+          <categories>
+            <category id="66dc-ef23-d715-27b2" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="a623-bd70-c748-7edd" name="Scuttler" entryId="c565-26ca-40f1-f6a0" number="1" type="model">
+          <rules>
+            <rule id="490b-991d-a557-328e::9dfa-4b05-f18a-4b11" name="Beast" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword cannot pick up, carry/use Items or Equipment, or interact with control panels. All of its weapons and equipment are either natural or have been grafted on permanently by skilled bio-technicians. A model with this keyword can still claim objective cubes.</description>
+            </rule>
+            <rule id="e4c8-528b-beb0-b801::904a-6711-43cf-1f83" name="Agile" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>When a model with this keyword takes an Advance or Sprint action it may move one additional level up or down in the same stack following normal movement rules.</description>
+            </rule>
+            <rule id="378b-d288-bf10-f0a3::b1bd-a2c4-cd75-d623" name="Evade" publicationId="c22e-0818-c8c6-fe86" page="33" hidden="false">
+              <description>When an unpinned model with the Evade keyword is the subject of a Shoot action but is not killed or Pinned, it may make an immediate 1 cube move in any direction. This may trigger a close combat fight as normal.</description>
+            </rule>
+            <rule id="5835-ccb1-f2cc-a556::9b72-c451-cddf-4b0f" name="Horde" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
+              <description>During a close combat fight, models with the Horde keyword will gain the friendly model bonus as normal, plus an additional +1 die modifier for each friendly model in the same cube (not counting itself) that also has the Horde keyword.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="3286-03c2-a396-4039::512a-4007-3ad1-9af8" name="Scuttler" publicationId="2fce-908e-d96c-e6cc" page="83" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">6+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Agile, Beast, Evade, Horde</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="de32-4fa0-32c9-9e4d" name="Pincers" entryId="85f3-fbcc-6e6a-ac4e::722d-c9a5-b76a-8902" number="1" type="upgrade">
+              <profiles>
+                <profile id="85f3-fbcc-6e6a-ac4e::33db-3fcc-7238-7364::bf6d-5362-eca4-9a36" name="Pincers" publicationId="2fce-908e-d96c-e6cc" page="83" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="7.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+          </costs>
+          <categories>
+            <category id="de87-91e0-0259-785e" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="eef3-df37-fac3-a232" name="Inker" entryId="fb23-1825-c98d-595e" number="1" type="model">
+          <rules>
+            <rule id="6687-d49d-31be-33c0::5aaa-ae0a-ed2b-a16d" name="Ink Sac" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+              <description>Once per game a model with this keyword can deploy a Smoke marker in its cube at the beginning or end of its activation. In addition, when this model is killed place a Smoke marker in its cube.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="2936-184e-f900-75a8::8229-d746-8dda-705e" name="Inker" publicationId="2fce-908e-d96c-e6cc" page="83" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">6+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Ink Sac</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="18c5-5508-32a2-191c" name="Teeth" entryId="b095-955e-ad10-d8db::7cab-388b-049a-b594" number="1" type="upgrade">
+              <profiles>
+                <profile id="b095-955e-ad10-d8db::0006-c297-f2fb-a2b0::fd3b-34a8-5194-a4a4" name="Teeth" publicationId="2fce-908e-d96c-e6cc" page="83" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="8.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+          </costs>
+          <categories>
+            <category id="85e3-4bec-96a4-6c31" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="9f5c-95f8-aa35-ddaa" name="Rifleman" entryId="b1e1-310a-1ae1-e4ab" number="1" type="model">
+          <rules>
+            <rule id="a3d9-2f09-a901-43e6::d3bb-c0a0-a253-cd9d" name="Resilient (n)" publicationId="c22e-0818-c8c6-fe86" page="39" hidden="false">
+              <description>A model with this keyword may re-roll (n) dice when making Survive tests.
+Resilient is cumulative. If more than one Resilient modifier applies to the test then add together the (n) value from each source.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="620d-5ead-342c-745b::232f-fe59-8794-ee43" name="Rifleman" publicationId="2fce-908e-d96c-e6cc" page="84" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Resilient (1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="2ac9-508e-9211-29f5" name="Crystal Rifle" entryId="03c4-6107-1bf4-cb6a::5040-0cf0-1257-6740" number="1" type="upgrade">
+              <rules>
+                <rule id="03c4-6107-1bf4-cb6a::b26e-5dba-49bb-85a0::9f29-41c5-23d5-fecd" name="Prey" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+                  <description>Some factions mark targets with tricilinc shards or pheromones to attract predators. If this weapon rolls a success on a Shoot or Assault action (but not a Blaze Away), place a Prey marker on the target model. Friendly models targeting a model with a Prey marker receive +1 dice to Fight tests. This effect is not cumulative.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="03c4-6107-1bf4-cb6a::6e4a-bed8-7da5-6757::d54a-7523-c4c5-0667" name="Crystal Rifle" publicationId="2fce-908e-d96c-e6cc" page="84" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R10</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Prey</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="15.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+          </costs>
+          <categories>
+            <category id="196b-8f54-f40c-0646" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="15dc-4f11-d682-6101" name="Magnumite" entryId="cea7-84c8-c032-b0b9" number="1" type="model">
+          <rules>
+            <rule id="e4f2-2783-04d8-4358::9dfa-4b05-f18a-4b11" name="Beast" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword cannot pick up, carry/use Items or Equipment, or interact with control panels. All of its weapons and equipment are either natural or have been grafted on permanently by skilled bio-technicians. A model with this keyword can still claim objective cubes.</description>
+            </rule>
+            <rule id="e198-1cef-aad4-1f57::a3aa-4f8e-9ad9-108f" name="Tenacious" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+              <description>An enemy model attempting to leave a cube that includes a model with this keyword, suffers -1 die to their Survive test.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="3603-bf0c-6fa8-d67d::5b52-8bf7-8fa8-25c6" name="Magnumite" publicationId="2fce-908e-d96c-e6cc" page="85" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">-</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">2</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">40mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Beast, Tenacious</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="448e-a505-4691-a8b1" name="Massive Claws" entryId="488b-697e-24da-436e::8535-cf4d-0c90-5140" number="1" type="upgrade">
+              <profiles>
+                <profile id="488b-697e-24da-436e::cf3e-2507-5537-efe4::37e4-66b0-3506-3417" name="Massive Claws" publicationId="2fce-908e-d96c-e6cc" page="82" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="35.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+          </costs>
+          <categories>
+            <category id="2370-f3a0-c446-4840" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="406a-6cff-a6ae-4ea6" name="Gunslinger" entryId="1208-537d-a99d-f5af" number="1" type="model">
+          <rules>
+            <rule id="17d0-09f4-b64d-cf60::a546-aaa9-c4fe-7b42" name="Hacker" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
+              <description>A model with this keyword is skilled at accessing terminals and intel. This keyword is used in conjunction with Tactical Asset Missions and Interactive Scenery. In addition, a model with this keyword which finds an Intel item will gain an additional VP.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="fe64-962a-2b29-cfac::d5b8-ad91-0cf9-2fcf" name="Gunslinger" publicationId="2fce-908e-d96c-e6cc" page="84" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Hacker</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="4096-2e03-8fa1-94c0" name="Twin Crystal Pistols" entryId="8e2f-5060-f6dd-c3fb::c07d-1a11-fa62-f152" number="1" type="upgrade">
+              <rules>
+                <rule id="8e2f-5060-f6dd-c3fb::9612-7125-76f5-49c3::9f29-41c5-23d5-fecd" name="Prey" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+                  <description>Some factions mark targets with tricilinc shards or pheromones to attract predators. If this weapon rolls a success on a Shoot or Assault action (but not a Blaze Away), place a Prey marker on the target model. Friendly models targeting a model with a Prey marker receive +1 dice to Fight tests. This effect is not cumulative.</description>
+                </rule>
+                <rule id="8e2f-5060-f6dd-c3fb::f8ee-d3b3-87dc-4485::76af-91a0-678c-8278" name="Rapid Fire" publicationId="c22e-0818-c8c6-fe86" page="38" hidden="false">
+                  <description>A model using a weapon with the Rapid Fire keyword may choose to fire it normally, or Blaze Away with a Shoot action in an attempt to pin models, but cause no damage. Rules that affect Shoot actions still apply (Evade, Smoke, etc.).</description>
+                </rule>
+                <rule id="8e2f-5060-f6dd-c3fb::c9f7-edbe-5732-b318::e367-6c06-ebbf-e4b6" name="Weight of Fire (n)" publicationId="c22e-0818-c8c6-fe86" page="41" hidden="false">
+                  <description>A model with this keyword may re-roll (n) dice when making Ranged tests.
+Weight of Fire is cumulative, If more than one Weight of Fire modifier applies to the test then add together the (n) value from each source.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="8e2f-5060-f6dd-c3fb::d543-bb79-ab05-cd7a::79e7-f3b0-186c-7e96" name="Twin Crystal Pistols" publicationId="2fce-908e-d96c-e6cc" page="84" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Prey, Rapid Fire, Weight of Fire (1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="34ba-710e-5546-3e6d" name="Ammo" entryId="bb81-e18d-61ef-5c5e::ca27-20ed-8401-de20::c275-654b-b7c4-f92d" entryGroupId="bb81-e18d-61ef-5c5e::dc32-5738-dbd1-823a" number="1" type="upgrade">
+              <rules>
+                <rule id="bb81-e18d-61ef-5c5e::ca27-20ed-8401-de20::10b1-072b-ccba-57f9::f1b0-a83e-78e3-8e8d" name="Ammo" publicationId="c22e-0818-c8c6-fe86" page="42" hidden="false">
+                  <description>[One-Use] Extra Ammunition (Ammo) is always helpful. A model may choose to use the Ammo when it makes a normal Shoot action. Add a +1 dice modifier for that Shoot action.</description>
+                </rule>
+                <rule id="bb81-e18d-61ef-5c5e::ca27-20ed-8401-de20::a57b-28eb-348c-1b1e::401b-9df8-8946-4135" name="One-Use" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+                  <description>This keyword, item, or weapon, may be used only once during a game.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="13.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+          </costs>
+          <categories>
+            <category id="8042-92a2-a418-0439" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="c22e-0818-c8c6-fe86" name="Rulebook"/>
+        <publication id="2fce-908e-d96c-e6cc" name="Force Lists"/>
+        <publication id="076f-0341-ba9e-fe0f" name="FAQ"/>
+      </publications>
+      <categories>
+        <category id="97de-ddb1-72a4-39a1" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="bca3-cfe2-87fe-afa6" name="Leader" entryId="93f0-5c07-b9f5-ed97" primary="false"/>
+        <category id="9293-1cb7-8d70-e2dc" name="Troop" entryId="359c-fce2-04fc-93b1" primary="false"/>
+        <category id="2e13-8424-9176-8aa6" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="false"/>
+        <category id="8b7c-a9a2-ae3e-8257" name="Support" entryId="1364-5634-04d6-8af7" primary="false"/>
+        <category id="c2ae-358c-f0f4-98f9" name="Living Legend" entryId="c049-07ca-32fa-da63" primary="false"/>
+        <category id="f08c-abff-9fa5-ed54" name="Special" entryId="6072-dcb2-6eb9-1e71" primary="false"/>
+        <category id="9812-7512-2a89-9284" name="Merc" entryId="6163-9854-9b33-15c5" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
