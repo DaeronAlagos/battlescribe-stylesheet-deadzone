@@ -11,9 +11,10 @@
   "devDependencies": {
     "grunt": "^1.5.3",
     "grunt-browser-sync": "^2.2.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-sass": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-xsltproc": "^1.0.0"
+    "grunt-replace": "^2.0.2",
+    "grunt-sass": "^3.1.0",
+    "grunt-xsltproc": "^1.0.0",
+    "node-sass": "^8.0.0"
   }
 }
