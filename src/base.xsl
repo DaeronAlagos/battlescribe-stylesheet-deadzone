@@ -19,7 +19,9 @@
 					<xsl:value-of select="../../@name"/>
 				</title>
 				<style>@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500')</style>
-				<link href="src/scss/style.css"/>
+				<style type='text/css'>
+				@@include_style
+				</style>
 			</head>
 			<body style="font-family: 'Hanken Grotesk', sans-serif; font-size: x-large;">
 				<div class="container">
@@ -47,6 +49,7 @@
 							<td style="width: 10%;"></td>
 						</tr>
 					</table>
+
 
 					<xsl:apply-templates select="bs:selections"/>
 					
@@ -123,14 +126,8 @@
 				</td>
 				
 				<td style="width: 10%; border-color: #CCC; border-width: 0 0 0 1px; border-style: solid; padding: 10px; vertical-align: text-top; font-size: large;">
-				<div style="position: relative;">
 					<div>
 						<xsl:apply-templates select="bs:rules"/>
-					</div>
-					<div style="position: absolute; bottom: 0px;">
-						<div>Size: 1</div>
-						<div>Base: 20</div>
-					</div>
 					</div>
 				</td>
 			</tr>
