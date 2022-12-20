@@ -30,19 +30,19 @@
 						<xsl:value-of select="../../@name"/>
 					</div>
 					
-					<table style="margin: 20px 0; ">
+					<table style="margin: 5px 0;">
 						<tr>
 							<td style="width: 90%;">
 								<table class="unit-stat">
 									<tr>
-										<td style="width: 12.5%;">Unit</td>
-										<td style="width: 12.5%; text-align: center;">SP</td>
-										<td style="width: 12.5%; text-align: center;">RA</td>
-										<td style="width: 12.5%; text-align: center;">FI</td>
-										<td style="width: 12.5%; text-align: center;">SV</td>
-										<td style="width: 12.5%; text-align: center;">AR</td>
-										<td style="width: 12.5%; text-align: center;">HP</td>
-										<td style="width: 12.5%; text-align: center;">VP</td>
+										<td style="width: 16%;">Unit</td>
+										<td style="width: 12%; text-align: center;">SP</td>
+										<td style="width: 12%; text-align: center;">RA</td>
+										<td style="width: 12%; text-align: center;">FI</td>
+										<td style="width: 12%; text-align: center;">SV</td>
+										<td style="width: 12%; text-align: center;">AR</td>
+										<td style="width: 12%; text-align: center;">HP</td>
+										<td style="width: 12%; text-align: center;">VP</td>
 									</tr>
 								</table>
 							</td>
@@ -55,8 +55,8 @@
 					<hr />
 					<div>
 						<xsl:for-each select="//bs:rule[not(@name=preceding::bs:rule/@name)]">
-							<div class="box-border" style="padding: 10px;">
-								<div style="font-size: large; font-weight: 600;">
+							<div class="box-border" style="font-size: 8pt; padding: 10px;">
+								<div style="font-weight: 600;">
 									<xsl:value-of select="@name"/>
 								</div>
 								<div>
@@ -73,7 +73,7 @@
 	
 	<xsl:template match="bs:selection[@type='model']">
 		
-		<table style="margin: 20px 0; border-width: 1px; border-color: #CCC; border-style: solid; border-radius: 4px; box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
+		<table style="margin: 10px 0; border-width: 1px; border-color: #CCC; border-style: solid; border-radius: 4px; box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
 			<tr>
 				<td style="width: 90%;">
 					<table class="unit-stat">
@@ -82,7 +82,7 @@
 								<div>
 									<xsl:value-of select="@name"/>
 								</div>
-								<div style="font-size: small;">
+								<div>
 									<xsl:value-of select="bs:categories/bs:category/@name"/>
 								</div>
 							</td>
@@ -114,22 +114,22 @@
 						</tr>
 					</table>
 					
-					<hr color="#CCC" size="1" width="95%"/>
+					<hr color="#CCC" size="1" width="95%" style="margin: 0 auto;"/>
 					
-					<table style="padding: 10px; table-layout: fixed;">
+					<table style="padding: 5px; table-layout: fixed;">
 						<tr>
-							<th style="width: 20%; text-align: left; font-size: small; font-weight: 500;">Weapon</th>
-							<th style="width: 10%; font-size: small; font-weight: 500;">Range</th>
-							<th style="width: 10%; font-size: small; font-weight: 500;">AP</th>
-							<th style="width: 20%; text-align: left; font-size: small; font-weight: 500;">Keywords</th>
-							<th style="width: 20%; text-align: left; font-size: small; font-weight: 500;">Equipment</th>
+							<th style="width: 20%; text-align: left;font-weight: 500;">Weapon</th>
+							<th style="width: 10%;font-weight: 500;">Range</th>
+							<th style="width: 10%; font-weight: 500;">AP</th>
+							<th style="width: 20%; text-align: left; font-weight: 500;">Keywords</th>
+							<th style="width: 20%; text-align: left; font-weight: 500;">Equipment</th>
 						</tr>
 						<xsl:apply-templates select="bs:selections/bs:selection/bs:profiles"/>
 					</table>
 				</td>
 				
 				<td style="width: 10%; border-color: #CCC; border-width: 0 0 0 1px; border-style: solid; padding: 10px; vertical-align: text-top;">
-					<div style="font-size: small;">
+					<div class="abilities">
 						<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Abilities']"/>
 					</div>
 				</td>
