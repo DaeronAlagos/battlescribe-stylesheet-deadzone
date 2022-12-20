@@ -1,7 +1,43 @@
+table {
+    width: 100%;
+}
+
 .container {
     margin: 0 auto;
+    font-family: 'Hanken Grotesk', sans-serif;
 
     @media screen {
-        width: 80%;
+        width: 90%;
     }
+
+}
+
+.title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 32px;
+
+    @media print {
+        font-size: 24pt;
+    }
+}
+
+table .unit-stat {
+    padding: 10px;
+
+    & td {
+        width: 12.5%;
+        &:not(:first-child) {
+            text-align: center;
+        }
+    }
+}
+
+.box-border {
+    margin: 20px 0;
+    border-width: 1px;
+    border-color: #CCC;
+    border-style: solid;
+    border-radius: 4px;
+    // box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
