@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="f9ad-4025-60ab-71af" name="GCPS 2" battleScribeVersion="2.03" gameSystemId="914e-8a95-25ac-174f" gameSystemName="Deadzone 3rd Edition" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="149.0"/>
+    <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="20.0"/>
+  </costs>
+  <costLimits>
+    <costLimit name=" Pts" typeId="69b0-482f-35d5-9309" value="150.0"/>
+  </costLimits>
+  <forces>
+    <force id="8a57-8a42-bac2-ca6a" name="Strike Team" entryId="373b-5688-1564-08f6" publicationId="2fce-908e-d96c-e6cc" page="4" catalogueId="6598-31ea-0dc7-1211" catalogueRevision="5" catalogueName="GCPS">
+      <selections>
+        <selection id="4eaa-703b-f859-d42b" name="Corporation Marine Lieutenant" entryId="b6dd-92d3-0d05-a280" number="1" type="model">
+          <rules>
+            <rule id="08bb-7d44-ceab-eb53::c38b-d36f-d26f-801d" name="Comm-link" publicationId="c22e-0818-c8c6-fe86" page="32" hidden="false">
+              <description>A model with this keyword is able to act as a spotter for their comrades. The model may use a Special Action to call in the co-ordinates of a target. Place a suitable marker in a cube within the comm-link model&apos;s LOS. Models using Indirect weapons treat this cube as being within their LOS.
+Note that this does not allow models to target cubes outside of their weapon&apos;s range, or to otherwise fire into cubes that are not valid targets.</description>
+            </rule>
+            <rule id="9e5d-3217-b2e8-793f::ae94-6c94-7ffa-c442" name="Special Order: Stand Together" hidden="false">
+              <description>Up to 3 unactivated models in your Strike Team to each make a 1 cube move closer to the active model. Moving models must not start in, or enter, a cube with an enemy model. The moving models are not marked as activated at the end of these moves.</description>
+            </rule>
+            <rule id="91e0-7941-4d4a-ac3d::2249-d210-753f-645c" name="Tactician (n)" publicationId="c22e-0818-c8c6-fe86" page="40" hidden="false">
+              <description>A model with this keyword is a great leader and intuitively understands how to get the most out of a combat situation. Its player adds (n) Command Dice to their Command Dice roll while the Tactician model remains in play (not left the game, or killed).
+Having more than one Tactician in a Strike Team provides no additional benefit beyond having a replacement if the first one is killed. Simply select the model you wish to use (probably the one that gives the most extra dice!).</description>
+            </rule>
+            <rule id="71c2-17ae-e52e-a6d7::5640-56e6-bb10-453d" name="Recon n+" publicationId="c22e-0818-c8c6-fe86" page="46-47" hidden="false">
+              <description>Recon is used to determine which player deploys their Strike Team to the battlefield first. The winner of the Recon test also benefits from Recon Effects.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="e0d4-fef5-587e-5c84::7b4b-835b-c7a7-497b" name="Corporation Marine Lieutenant" publicationId="2fce-908e-d96c-e6cc" page="47" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Comm-link, Recon 5+, Tactician (1)
+Special Order: Stand Together</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="49b3-b08e-07e5-df0b" name="Pistol" entryId="70f6-0594-42da-ee48::766a-dad4-8ffd-3577" number="1" type="upgrade">
+              <profiles>
+                <profile id="70f6-0594-42da-ee48::c42d-96d0-b9ea-011b::cc16-cebf-195e-d27c" name="Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="18.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+          </costs>
+          <categories>
+            <category id="8c83-3f33-f33e-9c7e" name="Leader" entryId="93f0-5c07-b9f5-ed97" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="ff8f-d0b3-81d0-f0e1" name="Mortar Team" entryId="27d0-a1a0-540e-07c8" number="1" type="model">
+          <profiles>
+            <profile id="e729-a764-cca6-c813::30ee-12f4-836f-13d8" name="Heavy Weapons Team" publicationId="2fce-908e-d96c-e6cc" page="50" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">4</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">3</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="9607-f7cd-9fcb-12ea" name="Mortar" entryId="6d40-9334-71b0-ef5d::a8e9-3dab-692f-4b68" number="1" type="upgrade">
+              <rules>
+                <rule id="6d40-9334-71b0-ef5d::1e6c-8580-ee92-ea2f::316b-2af6-278b-e591" name="Indirect (n)" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+                  <description>For Indirect weapons Shoot becomes a long action and you may not target models within 2 cubes of the shooting model.
+Indirect weapons can shoot at models within Line of Sight, or they can choose to shoot at targets they cannot see.
+To shoot, choose a target cube within range and more than 2 cubes from the shooting model.
+If the firing model has LOS to an enemy model in the target cube, roll a 3 dice Ranged test (1). No other dice can be added, or re-rolls of any kind made, for any reason.
+If the firing model does not have LOS to an enemy model, then a Shoot action may still be undertaken if both the shooting model and the target cube are visible when viewed from directly above. If a Shoot is possible but there is no LOS then the test becomes 3 dice Ranged test (2).
+Success for either test means that the shot has landed in the target cube. Failure requires a Scatter roll to determine which cube the shot explodes in. An inacurrate shot will Scatter (see Page 27) onto the highest level of the stack it scatters onto.
+Indirect will always be listed by the type of missile being fired as Indirect (n) e.g. Indirect (Frag (3)).</description>
+                </rule>
+                <rule id="6d40-9334-71b0-ef5d::b5ed-33d6-ca77-ff2e::af4a-32a8-dd1e-ee74" name="Frag (n)" publicationId="c22e-0818-c8c6-fe86" page="34" hidden="false">
+                  <description>Roll a (n) dice 4+ test (X) for the strength of the attack. No additional dice can be added for any reason. For example, a Frag (5) weapon would roll 5 dice for the test. Models in the target cube must roll a 3 dice Survive test (X).
+Roll one for the attack and separately for each affected target model&apos;s Survive test.
+Draw or target has more successes: Attack misses or fails to cause any harm.
+Frag has more successes: The difference in number of successes is the amount of HP lost.
+Whatever the results of the attack, all surviving models in the target cube are thrown one cube in a random direction (see Scatter on page 27) and are then Pinned.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="6d40-9334-71b0-ef5d::9566-a5fa-751e-b4e5::0ab0-75fd-b7b9-e564" name="Mortar" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R8</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Indirect - Frag (4)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="22.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="5715-a111-09e8-7370" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="true"/>
+            <category id="4e44-24f4-deb0-efe9" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="f4ba-179f-1b71-cdf2" name="Corporation Marine" entryId="e005-4da6-24d2-3627" number="1" type="model">
+          <profiles>
+            <profile id="d26d-97fc-5e47-9504::b94a-6bb2-4085-f724" name="Corporation Marine" publicationId="2fce-908e-d96c-e6cc" page="48" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7b6d-3194-9e6c-4558" name="Grenade Launcher" entryId="552c-e7a8-788a-a6da::56f4-c155-082e-7db2" entryGroupId="aa07-002e-03f0-9546" number="1" type="upgrade">
+              <rules>
+                <rule id="552c-e7a8-788a-a6da::492d-995e-6d8d-785d::316b-2af6-278b-e591" name="Indirect (n)" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+                  <description>For Indirect weapons Shoot becomes a long action and you may not target models within 2 cubes of the shooting model.
+Indirect weapons can shoot at models within Line of Sight, or they can choose to shoot at targets they cannot see.
+To shoot, choose a target cube within range and more than 2 cubes from the shooting model.
+If the firing model has LOS to an enemy model in the target cube, roll a 3 dice Ranged test (1). No other dice can be added, or re-rolls of any kind made, for any reason.
+If the firing model does not have LOS to an enemy model, then a Shoot action may still be undertaken if both the shooting model and the target cube are visible when viewed from directly above. If a Shoot is possible but there is no LOS then the test becomes 3 dice Ranged test (2).
+Success for either test means that the shot has landed in the target cube. Failure requires a Scatter roll to determine which cube the shot explodes in. An inacurrate shot will Scatter (see Page 27) onto the highest level of the stack it scatters onto.
+Indirect will always be listed by the type of missile being fired as Indirect (n) e.g. Indirect (Frag (3)).</description>
+                </rule>
+                <rule id="552c-e7a8-788a-a6da::6067-3ea5-eed8-5246::af4a-32a8-dd1e-ee74" name="Frag (n)" publicationId="c22e-0818-c8c6-fe86" page="34" hidden="false">
+                  <description>Roll a (n) dice 4+ test (X) for the strength of the attack. No additional dice can be added for any reason. For example, a Frag (5) weapon would roll 5 dice for the test. Models in the target cube must roll a 3 dice Survive test (X).
+Roll one for the attack and separately for each affected target model&apos;s Survive test.
+Draw or target has more successes: Attack misses or fails to cause any harm.
+Frag has more successes: The difference in number of successes is the amount of HP lost.
+Whatever the results of the attack, all surviving models in the target cube are thrown one cube in a random direction (see Scatter on page 27) and are then Pinned.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="552c-e7a8-788a-a6da::8dd1-1303-c68d-07db::6625-978f-50d6-77ee" name="Grenade Launcher" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Indirect - Frag (3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="13.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="07ce-2b41-cb9c-a7e4" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="true"/>
+            <category id="6222-66b7-d8d4-7f90" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="7d60-002d-914a-5081" name="Corporation Marine" entryId="e005-4da6-24d2-3627" number="1" type="model">
+          <profiles>
+            <profile id="d26d-97fc-5e47-9504::b94a-6bb2-4085-f724" name="Corporation Marine" publicationId="2fce-908e-d96c-e6cc" page="48" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">6+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="39d1-aaad-76ad-9ecf" name="Grenade Launcher" entryId="552c-e7a8-788a-a6da::56f4-c155-082e-7db2" entryGroupId="aa07-002e-03f0-9546" number="1" type="upgrade">
+              <rules>
+                <rule id="552c-e7a8-788a-a6da::492d-995e-6d8d-785d::316b-2af6-278b-e591" name="Indirect (n)" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+                  <description>For Indirect weapons Shoot becomes a long action and you may not target models within 2 cubes of the shooting model.
+Indirect weapons can shoot at models within Line of Sight, or they can choose to shoot at targets they cannot see.
+To shoot, choose a target cube within range and more than 2 cubes from the shooting model.
+If the firing model has LOS to an enemy model in the target cube, roll a 3 dice Ranged test (1). No other dice can be added, or re-rolls of any kind made, for any reason.
+If the firing model does not have LOS to an enemy model, then a Shoot action may still be undertaken if both the shooting model and the target cube are visible when viewed from directly above. If a Shoot is possible but there is no LOS then the test becomes 3 dice Ranged test (2).
+Success for either test means that the shot has landed in the target cube. Failure requires a Scatter roll to determine which cube the shot explodes in. An inacurrate shot will Scatter (see Page 27) onto the highest level of the stack it scatters onto.
+Indirect will always be listed by the type of missile being fired as Indirect (n) e.g. Indirect (Frag (3)).</description>
+                </rule>
+                <rule id="552c-e7a8-788a-a6da::6067-3ea5-eed8-5246::af4a-32a8-dd1e-ee74" name="Frag (n)" publicationId="c22e-0818-c8c6-fe86" page="34" hidden="false">
+                  <description>Roll a (n) dice 4+ test (X) for the strength of the attack. No additional dice can be added for any reason. For example, a Frag (5) weapon would roll 5 dice for the test. Models in the target cube must roll a 3 dice Survive test (X).
+Roll one for the attack and separately for each affected target model&apos;s Survive test.
+Draw or target has more successes: Attack misses or fails to cause any harm.
+Frag has more successes: The difference in number of successes is the amount of HP lost.
+Whatever the results of the attack, all surviving models in the target cube are thrown one cube in a random direction (see Scatter on page 27) and are then Pinned.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="552c-e7a8-788a-a6da::8dd1-1303-c68d-07db::6625-978f-50d6-77ee" name="Grenade Launcher" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Indirect - Frag (3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="13.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="a6cd-d043-59ea-844b" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="true"/>
+            <category id="4201-5995-4f27-59e2" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="5f8b-79d4-812f-a28b" name="Ranger" entryId="406a-0b4b-4d42-05cb" number="1" type="model">
+          <rules>
+            <rule id="28f4-4fd7-0939-7f8e::8b23-af1b-06d1-069a" name="Aerial Deployment" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword may choose to make an aerial deployment. If it does so, do not deploy it with the rest of your Strike Team. Once both players have deployed their teams, but before any Scout or Recon moves, a model using aerial deployment may be deployed in any cube not containing an objective and provided it is at least two cubes away from the nearest enemy model. If there are multiple cubes in a stack, it must deploy on the highest level.
+A model may always aerially deploy into the player&apos;s own deployment zone (if cube size limits allow it) but may never aerially deploy in the enemy&apos;s deployment zone. If both players have models with aerial deployment then alternate aerial deployments starting with the player with Initiative. If this means that a model cannot be deployted legally then that model will have to instead be deployed within your deployment zone.</description>
+            </rule>
+            <rule id="0594-e20b-d0e8-2f6f::6932-6558-0a3f-0f92" name="Jump Pack" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+              <description>Short distance aeronautical gravitation devices can allow rapid movement around the battlefield.
+A model that has the Jump Pack keyword takes no damage and is not Pinned by falling.
+In addition, a model with a Jump Pack can:
+- Move up or down levels without needing a wall to climb.
+- Jump over solid full cube height walls on the same level counting as a single cube of movement.
+- Jump over gaps in the floow of the same level (up to one cube wide), provided it has enough cubes of movement to do so.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f95d-e767-916b-2948::48ca-4bdd-e097-5ce0" name="Ranger" publicationId="2fce-908e-d96c-e6cc" page="50" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Aerial Deployment, Jump Pack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="547d-27ec-785c-46c5" name="Flamethrower" entryId="11da-617f-e952-557a::13b2-d54e-6090-7be2" entryGroupId="fe15-ec64-4c2c-1c1d" number="1" type="upgrade">
+              <rules>
+                <rule id="11da-617f-e952-557a::689b-8faf-a8f5-40c5::2719-d1a9-0852-f952" name="It Burns!" publicationId="c22e-0818-c8c6-fe86" page="36" hidden="false">
+                  <description>Weapons with this keyword unleash indiscriminate sheets of flame, acid, or similar lethal concoctions.
+It Burns! weapons attack every model in the same cube as the primary target, regardless of which side they are on or whether they are visible to the Shooter. In reality, the weapon fires great gouts of flame that fill the cube, and even near-misses set things alight.
+Choose one visible model as the primary target and roll a 3 dice Ranged test (X) with no modifiers or re-rolls allowed of any kind. Roll a 3 dice Survive test (X) separately for each model in the target cube. Compare each individually to the attack roll to see the results as per a normal ranged attack.
+Whatever the result of the attack (even if it misses) all models in the target cube are set on fire (mark them with a fire marker). A model can have a maximum of one fire marker at any one time.
+A model with a fire marker must attempt to put out the fire when it is activated. This is a free Special action that the model must take (before even a Stand Up action) but will not count towards its normal action limit this activation. It is resolved as follows:
+The fire rolls a 3 dice 4+ test (X).
+The target rolls a 3 dice Survive test (X).
+Draw or Survive has more successes: The target puts out the fire before it does any real damage. The model may continue with any remaining actions as normal.
+Fire has more successes: The target manages to put out the flames and is no longer on fire, but suffers damage in the process. The number of HP lost is equal to the difference in total successes. Armour can reduce damage as normal (resolved using AP0, regardless of the AP of the original attack). The model&apos;s activation ends immediately.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="11da-617f-e952-557a::639c-47d3-dd45-c44c::e79e-5c0e-ba8f-3880" name="Flamethrower" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns!</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="dfcf-f65b-4225-1dd5" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+            <category id="5da6-aca4-3a04-af55" name="Troop" entryId="359c-fce2-04fc-93b1" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="f4a9-f9b7-e91e-a5ec" name="Ranger" entryId="406a-0b4b-4d42-05cb" number="1" type="model">
+          <rules>
+            <rule id="28f4-4fd7-0939-7f8e::8b23-af1b-06d1-069a" name="Aerial Deployment" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword may choose to make an aerial deployment. If it does so, do not deploy it with the rest of your Strike Team. Once both players have deployed their teams, but before any Scout or Recon moves, a model using aerial deployment may be deployed in any cube not containing an objective and provided it is at least two cubes away from the nearest enemy model. If there are multiple cubes in a stack, it must deploy on the highest level.
+A model may always aerially deploy into the player&apos;s own deployment zone (if cube size limits allow it) but may never aerially deploy in the enemy&apos;s deployment zone. If both players have models with aerial deployment then alternate aerial deployments starting with the player with Initiative. If this means that a model cannot be deployted legally then that model will have to instead be deployed within your deployment zone.</description>
+            </rule>
+            <rule id="0594-e20b-d0e8-2f6f::6932-6558-0a3f-0f92" name="Jump Pack" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+              <description>Short distance aeronautical gravitation devices can allow rapid movement around the battlefield.
+A model that has the Jump Pack keyword takes no damage and is not Pinned by falling.
+In addition, a model with a Jump Pack can:
+- Move up or down levels without needing a wall to climb.
+- Jump over solid full cube height walls on the same level counting as a single cube of movement.
+- Jump over gaps in the floow of the same level (up to one cube wide), provided it has enough cubes of movement to do so.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f95d-e767-916b-2948::48ca-4bdd-e097-5ce0" name="Ranger" publicationId="2fce-908e-d96c-e6cc" page="50" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Aerial Deployment, Jump Pack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="b42d-81f5-aa37-811c" name="Laser Carbine" entryId="572c-ea52-5637-f2b0::6081-0168-4c19-b91e" entryGroupId="fe15-ec64-4c2c-1c1d" number="1" type="upgrade">
+              <rules>
+                <rule id="572c-ea52-5637-f2b0::1c74-cf39-3776-2a68::76af-91a0-678c-8278" name="Rapid Fire" publicationId="c22e-0818-c8c6-fe86" page="38" hidden="false">
+                  <description>A model using a weapon with the Rapid Fire keyword may choose to fire it normally, or Blaze Away with a Shoot action in an attempt to pin models, but cause no damage. Rules that affect Shoot actions still apply (Evade, Smoke, etc.).</description>
+                </rule>
+                <rule id="572c-ea52-5637-f2b0::09bd-2ff3-df9b-2a08::e367-6c06-ebbf-e4b6" name="Weight of Fire (n)" publicationId="c22e-0818-c8c6-fe86" page="41" hidden="false">
+                  <description>A model with this keyword may re-roll (n) dice when making Ranged tests.
+Weight of Fire is cumulative, If more than one Weight of Fire modifier applies to the test then add together the (n) value from each source.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="572c-ea52-5637-f2b0::f1cd-0ca1-43c3-9e4e::d711-4202-2843-76f1" name="Laser Carbine" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire, Weight of Fire (1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="c9fe-d49a-feda-84fd" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+            <category id="b241-1245-8eb2-a67c" name="Troop" entryId="359c-fce2-04fc-93b1" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="91cb-a606-e450-0bb0" name="Ranger" entryId="406a-0b4b-4d42-05cb" number="1" type="model">
+          <rules>
+            <rule id="28f4-4fd7-0939-7f8e::8b23-af1b-06d1-069a" name="Aerial Deployment" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword may choose to make an aerial deployment. If it does so, do not deploy it with the rest of your Strike Team. Once both players have deployed their teams, but before any Scout or Recon moves, a model using aerial deployment may be deployed in any cube not containing an objective and provided it is at least two cubes away from the nearest enemy model. If there are multiple cubes in a stack, it must deploy on the highest level.
+A model may always aerially deploy into the player&apos;s own deployment zone (if cube size limits allow it) but may never aerially deploy in the enemy&apos;s deployment zone. If both players have models with aerial deployment then alternate aerial deployments starting with the player with Initiative. If this means that a model cannot be deployted legally then that model will have to instead be deployed within your deployment zone.</description>
+            </rule>
+            <rule id="0594-e20b-d0e8-2f6f::6932-6558-0a3f-0f92" name="Jump Pack" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+              <description>Short distance aeronautical gravitation devices can allow rapid movement around the battlefield.
+A model that has the Jump Pack keyword takes no damage and is not Pinned by falling.
+In addition, a model with a Jump Pack can:
+- Move up or down levels without needing a wall to climb.
+- Jump over solid full cube height walls on the same level counting as a single cube of movement.
+- Jump over gaps in the floow of the same level (up to one cube wide), provided it has enough cubes of movement to do so.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f95d-e767-916b-2948::48ca-4bdd-e097-5ce0" name="Ranger" publicationId="2fce-908e-d96c-e6cc" page="50" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Aerial Deployment, Jump Pack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="4a30-1057-a7e8-d103" name="Laser Carbine" entryId="572c-ea52-5637-f2b0::6081-0168-4c19-b91e" entryGroupId="fe15-ec64-4c2c-1c1d" number="1" type="upgrade">
+              <rules>
+                <rule id="572c-ea52-5637-f2b0::1c74-cf39-3776-2a68::76af-91a0-678c-8278" name="Rapid Fire" publicationId="c22e-0818-c8c6-fe86" page="38" hidden="false">
+                  <description>A model using a weapon with the Rapid Fire keyword may choose to fire it normally, or Blaze Away with a Shoot action in an attempt to pin models, but cause no damage. Rules that affect Shoot actions still apply (Evade, Smoke, etc.).</description>
+                </rule>
+                <rule id="572c-ea52-5637-f2b0::09bd-2ff3-df9b-2a08::e367-6c06-ebbf-e4b6" name="Weight of Fire (n)" publicationId="c22e-0818-c8c6-fe86" page="41" hidden="false">
+                  <description>A model with this keyword may re-roll (n) dice when making Ranged tests.
+Weight of Fire is cumulative, If more than one Weight of Fire modifier applies to the test then add together the (n) value from each source.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="572c-ea52-5637-f2b0::f1cd-0ca1-43c3-9e4e::d711-4202-2843-76f1" name="Laser Carbine" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire, Weight of Fire (1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="8a80-fef8-54ff-8052" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+            <category id="b906-9c9a-5fdb-4d37" name="Troop" entryId="359c-fce2-04fc-93b1" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="b37c-4fca-5af7-40ac" name="Ranger" entryId="dc21-5a1f-b3a4-4345" number="1" type="model">
+          <rules>
+            <rule id="280b-4202-53d8-261a::8b23-af1b-06d1-069a" name="Aerial Deployment" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword may choose to make an aerial deployment. If it does so, do not deploy it with the rest of your Strike Team. Once both players have deployed their teams, but before any Scout or Recon moves, a model using aerial deployment may be deployed in any cube not containing an objective and provided it is at least two cubes away from the nearest enemy model. If there are multiple cubes in a stack, it must deploy on the highest level.
+A model may always aerially deploy into the player&apos;s own deployment zone (if cube size limits allow it) but may never aerially deploy in the enemy&apos;s deployment zone. If both players have models with aerial deployment then alternate aerial deployments starting with the player with Initiative. If this means that a model cannot be deployted legally then that model will have to instead be deployed within your deployment zone.</description>
+            </rule>
+            <rule id="6bb7-493c-499e-791d::6932-6558-0a3f-0f92" name="Jump Pack" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+              <description>Short distance aeronautical gravitation devices can allow rapid movement around the battlefield.
+A model that has the Jump Pack keyword takes no damage and is not Pinned by falling.
+In addition, a model with a Jump Pack can:
+- Move up or down levels without needing a wall to climb.
+- Jump over solid full cube height walls on the same level counting as a single cube of movement.
+- Jump over gaps in the floow of the same level (up to one cube wide), provided it has enough cubes of movement to do so.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="5f66-0560-a8e2-d1e5::48ca-4bdd-e097-5ce0" name="Ranger" publicationId="2fce-908e-d96c-e6cc" page="50" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Aerial Deployment, Jump Pack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d38d-a841-d2f8-ebc3" name="Thermal Rifle" entryId="6892-31af-6beb-3ee5::fa54-eabb-3104-786e" entryGroupId="5f43-bf98-d4d4-0353" number="1" type="upgrade">
+              <profiles>
+                <profile id="6892-31af-6beb-3ee5::ca1c-30ab-08f0-d195::30ee-71b4-70a0-2537" name="Thermal Rifle" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R4</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="16.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="1482-103b-b14e-e341" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7f85-843a-4b02-debf" name="Ranger" entryId="406a-0b4b-4d42-05cb" number="1" type="model">
+          <rules>
+            <rule id="28f4-4fd7-0939-7f8e::8b23-af1b-06d1-069a" name="Aerial Deployment" publicationId="c22e-0818-c8c6-fe86" page="31" hidden="false">
+              <description>A model with this keyword may choose to make an aerial deployment. If it does so, do not deploy it with the rest of your Strike Team. Once both players have deployed their teams, but before any Scout or Recon moves, a model using aerial deployment may be deployed in any cube not containing an objective and provided it is at least two cubes away from the nearest enemy model. If there are multiple cubes in a stack, it must deploy on the highest level.
+A model may always aerially deploy into the player&apos;s own deployment zone (if cube size limits allow it) but may never aerially deploy in the enemy&apos;s deployment zone. If both players have models with aerial deployment then alternate aerial deployments starting with the player with Initiative. If this means that a model cannot be deployted legally then that model will have to instead be deployed within your deployment zone.</description>
+            </rule>
+            <rule id="0594-e20b-d0e8-2f6f::6932-6558-0a3f-0f92" name="Jump Pack" publicationId="c22e-0818-c8c6-fe86" page="37" hidden="false">
+              <description>Short distance aeronautical gravitation devices can allow rapid movement around the battlefield.
+A model that has the Jump Pack keyword takes no damage and is not Pinned by falling.
+In addition, a model with a Jump Pack can:
+- Move up or down levels without needing a wall to climb.
+- Jump over solid full cube height walls on the same level counting as a single cube of movement.
+- Jump over gaps in the floow of the same level (up to one cube wide), provided it has enough cubes of movement to do so.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f95d-e767-916b-2948::48ca-4bdd-e097-5ce0" name="Ranger" publicationId="2fce-908e-d96c-e6cc" page="50" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Aerial Deployment, Jump Pack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="baa4-13a4-ad93-dc94" name="Laser Carbine" entryId="572c-ea52-5637-f2b0::6081-0168-4c19-b91e" entryGroupId="fe15-ec64-4c2c-1c1d" number="1" type="upgrade">
+              <rules>
+                <rule id="572c-ea52-5637-f2b0::1c74-cf39-3776-2a68::76af-91a0-678c-8278" name="Rapid Fire" publicationId="c22e-0818-c8c6-fe86" page="38" hidden="false">
+                  <description>A model using a weapon with the Rapid Fire keyword may choose to fire it normally, or Blaze Away with a Shoot action in an attempt to pin models, but cause no damage. Rules that affect Shoot actions still apply (Evade, Smoke, etc.).</description>
+                </rule>
+                <rule id="572c-ea52-5637-f2b0::09bd-2ff3-df9b-2a08::e367-6c06-ebbf-e4b6" name="Weight of Fire (n)" publicationId="c22e-0818-c8c6-fe86" page="41" hidden="false">
+                  <description>A model with this keyword may re-roll (n) dice when making Ranged tests.
+Weight of Fire is cumulative, If more than one Weight of Fire modifier applies to the test then add together the (n) value from each source.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="572c-ea52-5637-f2b0::f1cd-0ca1-43c3-9e4e::d711-4202-2843-76f1" name="Laser Carbine" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire, Weight of Fire (1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="14.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="a38d-5ce3-a61b-2d82" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+            <category id="82df-d836-c3a5-4cfa" name="Troop" entryId="359c-fce2-04fc-93b1" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="9d73-f4ee-2d6e-2fb1" name="Corporation Veteran" entryId="dc28-0391-1ef0-d138" number="1" type="model">
+          <rules>
+            <rule id="b1d2-09d2-1528-e6d8::a546-aaa9-c4fe-7b42" name="Hacker" publicationId="c22e-0818-c8c6-fe86" page="35" hidden="false">
+              <description>A model with this keyword is skilled at accessing terminals and intel. This keyword is used in conjunction with Tactical Asset Missions and Interactive Scenery. In addition, a model with this keyword which finds an Intel item will gain an additional VP.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="d627-5732-d304-4531::c17c-06d6-500f-b7ba" name="Corporation Veteran" publicationId="2fce-908e-d96c-e6cc" page="48" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+              <characteristics>
+                <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+                <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+                <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+                <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+                <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">-</characteristic>
+                <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+                <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+                <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+                <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Hacker</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="a531-7c18-ca10-a3a2" name="Laser Carbine" entryId="c87e-7582-3de9-2fa6::6081-0168-4c19-b91e" entryGroupId="b0f9-3410-8d21-7e28" number="1" type="upgrade">
+              <rules>
+                <rule id="c87e-7582-3de9-2fa6::1c74-cf39-3776-2a68::76af-91a0-678c-8278" name="Rapid Fire" publicationId="c22e-0818-c8c6-fe86" page="38" hidden="false">
+                  <description>A model using a weapon with the Rapid Fire keyword may choose to fire it normally, or Blaze Away with a Shoot action in an attempt to pin models, but cause no damage. Rules that affect Shoot actions still apply (Evade, Smoke, etc.).</description>
+                </rule>
+                <rule id="c87e-7582-3de9-2fa6::09bd-2ff3-df9b-2a08::e367-6c06-ebbf-e4b6" name="Weight of Fire (n)" publicationId="c22e-0818-c8c6-fe86" page="41" hidden="false">
+                  <description>A model with this keyword may re-roll (n) dice when making Ranged tests.
+Weight of Fire is cumulative, If more than one Weight of Fire modifier applies to the test then add together the (n) value from each source.</description>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="c87e-7582-3de9-2fa6::f1cd-0ca1-43c3-9e4e::d711-4202-2843-76f1" name="Laser Carbine" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+                    <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+                    <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire, Weight of Fire (1)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="11.0"/>
+                <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+            <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="c242-59e7-9ba7-c896" name="Troop" entryId="359c-fce2-04fc-93b1" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="c22e-0818-c8c6-fe86" name="Rulebook"/>
+        <publication id="2fce-908e-d96c-e6cc" name="Force Lists"/>
+        <publication id="076f-0341-ba9e-fe0f" name="FAQ"/>
+      </publications>
+      <categories>
+        <category id="c12f-1459-b728-041d" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="b8c3-2d8b-dc85-3072" name="Leader" entryId="93f0-5c07-b9f5-ed97" primary="false"/>
+        <category id="87c5-c2bb-d917-68ab" name="Troop" entryId="359c-fce2-04fc-93b1" primary="false"/>
+        <category id="69dc-3ee5-4914-07b3" name="Specialist" entryId="e0b7-1823-fa7a-dfa6" primary="false"/>
+        <category id="a679-8d7b-1aa2-de98" name="Support" entryId="1364-5634-04d6-8af7" primary="false"/>
+        <category id="d426-54f0-51dd-25a2" name="Living Legend" entryId="c049-07ca-32fa-da63" primary="false"/>
+        <category id="6880-b907-a2df-911d" name="Special" entryId="6072-dcb2-6eb9-1e71" primary="false"/>
+        <category id="606d-550b-e1b9-d5d2" name="Merc" entryId="6163-9854-9b33-15c5" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
